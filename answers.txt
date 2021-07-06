@@ -4,7 +4,6 @@ const PI = 3.14;
 
 
 What is the difference between var and let?
-
 var is function scoped, while let is block scoped.
 var can also be re-declared, is hoisted, and can exist as a property on the global (window) scope.
 None of which is true for let.
@@ -14,7 +13,7 @@ Much the same as above, however const cannot be re-assigned, while var can.
 
 What is the difference between let and const?
 let can be re-assigned after initialization, while const cannot.
-const must also be initialized with a value when declared, while variables declared with let and initialized later.
+const must also be initialized with a value when declared, while variables declared with let can be initialized later.
 
 What is hoisting?
 Hoisting is when a variable's declaration is compiled and ran before its initialization, regardless of its position in the source code.
